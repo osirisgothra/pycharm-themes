@@ -15,12 +15,14 @@ Themes list
 * Dawn
 * Eiffel
 * Espresso Libre
+* GitHub
 * IDLE
 * LAZY
 * Mac Classic
 * MagicWB (Amiga)
 * Monokai Bright
 * Pastels on Dark
+* PyDev
 * Solarized (Dark)
 * Solarized (Light)
 * SpaceCadet
