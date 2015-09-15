@@ -3,14 +3,13 @@ TextMate themes for PyCharm
 
 Current PyCharm version: 3, 4, and, 4.5 (at 4.5.4)
 
-This is a fork of a fork:
+This secondary fork of the original:
 
-* The current author at this time is not affiliated with the original authors, for stuff that is not
-  modified here, please ask the respective author(s)
-* The fork is here: https://github.com/benbovy/pycharm-themes
-* The fork's fork (original author) is here: https://github.com/d1ffuz0r/pycharm-themes
-
-Themes for older versions check at [Releases](https://github.com/d1ffuz0r/pycharm-themes/releases) page
+* The first fork is here: https://github.com/benbovy/pycharm-themes
+* The original is here: https://github.com/d1ffuz0r/pycharm-themes
+* The current Author is not affiliated with the above Authors
+* Please direct questions about any file(set) to the appropriate Author(s)!
+* Themes for older versions check at [Releases](https://github.com/d1ffuz0r/pycharm-themes/releases) page
 
 Themes list
 -----------
@@ -52,7 +51,7 @@ Installation for Windows
 ------------------------
 
 PyCharm 3.0
-```
+```bat
 cd /d c:\temp
 git clone git://github.com/osirisgothra/pycharm-themes.git
 cd pycharm-themes/colors
@@ -60,7 +59,7 @@ xcopy *.icls "C:\Documents and Settings\<User name>\.PyCharm30\Config\Colors"
 ```
 
 PyCharm 4.0 and 4.5 (including 4.5.4)
-```
+```bat
 cd /d c:\temp
 git clone git://github.com/osirisgothra/pycharm-themes.git
 cd pycharm-themes/colors
@@ -72,14 +71,14 @@ Installation for Mac OS X
 -------------------------
 
 PyCharm 3.0
-```
+```sh
 git clone git://github.com/osirisgothra/pycharm-themes.git
 cd pycharm-themes/colors
 cp *.icls ~/Library/Preferences/PyCharm30/colors
 ```
 
 PyCharm 4.0 and 4.5 (including 4.5.4)
-```
+```sh
 git clone git://github.com/osirisgothra/pycharm-themes.git
 cd pycharm-themes/colors
 cp *.icls ~/Library/Preferences/PyCharm40/colors
@@ -90,14 +89,14 @@ Installation for Linux
 ----------------------
 
 PyCharm 3.0
-```
+```sh
 git clone git://github.com/osirisgothra/pycharm-themes.git
 cd pycharm-themes/colors
 cp *.icls ~/.PyCharm30/config/colors/
 ```
 
 PyCharm 4.0 and 4.5 (including 4.5.4)
-```
+```sh
 git clone git://github.com/osirisgothra/pycharm-themes.git
 cd pycharm-themes/colors
 cp *.icls ~/.PyCharm40/config/colors/
