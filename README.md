@@ -1,7 +1,7 @@
 TextMate themes for PyCharm
 ===========================
 
-Current PyCharm version: 3, 4, and, 4.5 (at 4.5.4)
+Current Supported PyCharm versions: 3 and 4&nbsp;:sparkle:
 
 This secondary fork of the original:
 
@@ -45,6 +45,11 @@ agnostic, so it will work regardless of 32-bit or 64-bit installations. Unless y
 using a heavily customized system, these locations are standard across the mentioned
 systems. 
 
+The step to create the "colors" directory is *only* required if you have never customized
+your colors with the user in question. You can safely ignore the error that the directory
+already exists. Furthermore, you should <b>run PyCharm at least once before attempting to
+install these colors or else you will need to create the entire directory tree yourself</b>.
+
 If you require instructions or think a platform is missing, please let me know and I'll put it up here.
 
 Installation for Windows
@@ -55,6 +60,7 @@ PyCharm 3.0
 cd /d c:\temp
 git clone git://github.com/osirisgothra/pycharm-themes.git
 cd pycharm-themes/colors
+md "C:\Documents and Settings\<User name>\.PyCharm30\Config\Colors"
 xcopy *.icls "C:\Documents and Settings\<User name>\.PyCharm30\Config\Colors"
 ```
 
@@ -63,7 +69,8 @@ PyCharm 4.0 and 4.5 (including 4.5.4)
 cd /d c:\temp
 git clone git://github.com/osirisgothra/pycharm-themes.git
 cd pycharm-themes/colors
-xcopy *.icls "C:\Documents and Settings\<User name>\.PyCharm30\Config\Colors"
+md "C:\Documents and Settings\<User name>\.PyCharm40\Config\Colors"
+xcopy *.icls "C:\Documents and Settings\<User name>\.PyCharm40\Config\Colors"
 ```
 
 
@@ -74,6 +81,7 @@ PyCharm 3.0
 ```sh
 git clone git://github.com/osirisgothra/pycharm-themes.git
 cd pycharm-themes/colors
+mkdir ~/Library/Preferences/PyCharm30/colors
 cp *.icls ~/Library/Preferences/PyCharm30/colors
 ```
 
@@ -81,6 +89,7 @@ PyCharm 4.0 and 4.5 (including 4.5.4)
 ```sh
 git clone git://github.com/osirisgothra/pycharm-themes.git
 cd pycharm-themes/colors
+mkdir ~/Library/Preferences/PyCharm40/colors
 cp *.icls ~/Library/Preferences/PyCharm40/colors
 ```
 
@@ -92,6 +101,7 @@ PyCharm 3.0
 ```sh
 git clone git://github.com/osirisgothra/pycharm-themes.git
 cd pycharm-themes/colors
+mkdir ~/.PyCharm30/config/colors
 cp *.icls ~/.PyCharm30/config/colors/
 ```
 
@@ -99,5 +109,8 @@ PyCharm 4.0 and 4.5 (including 4.5.4)
 ```sh
 git clone git://github.com/osirisgothra/pycharm-themes.git
 cd pycharm-themes/colors
+mkdir ~/.PyCharm40/config/colors
 cp *.icls ~/.PyCharm40/config/colors/
 ```
+
+:sparkle:&nbsp; Latest version 4.5.4 as of September 15, 2015
